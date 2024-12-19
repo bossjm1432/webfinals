@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#dancegroup">Dance Group</a></li>
+                <li><a href="#anime">Anime</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT Student</p>
+            <h1><span>Hi, I'm </span> John Michael<br>Mediana</h1>
+        </div>
+        </div>
+    </div>
+                        <!----------  About --------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profilepic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is John Micheal B. Mediana, 21 years old from songculan, Dauis, Bohol. I am a 3rd year college Bachelor of Science information technology student at Bohol Island state university, balilihan campus. <br>
+                        Member of a dance group/organization of prime synergy</p>
+                    <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('food')">Fav Food</p>
+                            <p class="tab-links" onclick="opentab('song')">Fav songw/artist</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        <!----------  food --------->
+                        <div class="tab-contents active-tab" id="food">
+                            <ul>
+                                <li><span>Fried Chicken</span></li>
+                                <li><span>Ice Cream </span></li>
+                                <li><span>Somai</span></li>
+                            </ul>
+                        </div>
+                        <!----------  artist --------->
+                        <div class="tab-contents" id="song">
+                            <ul>
+                                <li><span>Swim - chase Atlantic </span></li>
+                                <li><span>Is there someone else - weekend</span></li>
+                                <li><span>Heaven and back - chase Atlantic</span></li>
+                            </ul>
+                        </div>
+                        <!---------- hobbies --------->
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Playing CODM</span></li>
+                                <li><span>Dancing</span></li>
+                                <li><span>Playing PUBG</span></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------SCHOOL ATTENDED --------->
+    <div id="dancegroup">
+        <div class="container">
+            <h1 class="sub-title">Dance Group</h1>
+            <div class="language-list">
+                <div>
+                    <h2>Mastermind</h2>
+                    <p>Mastermind is a dance group from the Philippines that has been described as having great movements and a strong connection to the music</p> 
+                </div>
+                <div>
+                    <h2>Jabbawockeez</h2>
+                    <p>The Jabbawockeez are a hip-hop dance crew from Los Angeles known for their creativity, athleticism, and intricate synchronization: 
+                        
+                        The group was founded in 2003 by Kevin "KB" Brewer and Joe Larot in San Diego, California</p> 
+                </div>
+                <div>
+                    <h2>Rockwell Dance Center</h2>
+                    <p>Rockwell Dance Center
+                        A dance center in Trumbull, Connecticut that offers classes in a variety of styles, including ballet, hip hop, jazz, and contemporary. The center's mission is to provide a creative and inspiring dance education that emphasizes technical foundation, artistry, and self-expression. Rockwell Dance Center has a costume shop, black box theater, and lounge.</p>  
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  anime --------->
+        <div id="anime">
+            <div class="fcontainer">
+                <h1 class="sub-title">Favorite Anime</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/poster1.jpg">
+                        <div class="layer">
+                            <h1>Jujutsu kaisen</h1>
+                                <p>Yuji Itadori is a kind-hearted high schooler who joins the occult club and discovers its members are sorcerers. He eats a cursed finger to protect his friends, becoming the host of the demon Sukuna's power. Yuji enrolls in Jujutsu Tech High School to learn sorcery techniques and find the remaining fingers of the cursed spirit.</p>    
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster2.jpg">
+                        <div class="layer">
+                        <h1>Demon Slayer</h1>
+                            <p>Set in early 20th century Japan, the story follows Tanjiro Kamado, a 13-year-old who returns home to find his family murdered, except for his sister Nezuko, who has turned into a demon. Tanjiro trains to become a member of the Demon Slayer Corps, an underground organization that protects humans from demons.</p>
+                    </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/poster3.jpg">
+                        <div class="layer">                       
+                        <h1>Naruto</h1>
+                            <p>Naruto is a 12-year-old orphan with spiky blond hair and blue eyes who is treated with disdain by the adults in his village due to a secret about his birth. Naruto is the biggest problem child at the ninja academy, but he overcomes challenges through hard work and perseverance.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2></i><br>Email</h2>
+                        <p>skustmj@gmail.com</p>
+                        
+                    </div>
+                    <div>
+                        <h2><br>Phone Number</h2>
+                        <p>09531447761</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><br>FaceBook</h2>
+                        <p>John Michael Mediana</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy; 2024 John Michael Mediana. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); 
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
